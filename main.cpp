@@ -4,7 +4,7 @@
 
 using namespace std;
 
-
+//Que pedo...
 void saltar()
 {
 
