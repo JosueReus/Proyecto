@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1416935933 source:c:\users\josue\documents\sfml project_1\main.cpp
+	<SFML/Graphics.hpp>
+	<Joystick.hpp>
+	<iostream>
+
