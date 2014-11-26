@@ -1,0 +1,105 @@
+<?xml version="1.0" standalone="no" ?>
+<MainFile>
+	<Declarations>
+
+		<!-- Variablables -->
+		<sprite variable="current_image" path="sprites/stand/idle/1.png" scale="1" align_x="0" align_y="0"/>
+		<string variable="current_move" value="5"/>
+		<string variable="change_char" value="off"/>
+		<string variable="hit" value="no"/>
+		<string variable="projectile_disolve" value="no"/>
+		<string variable="projectile_hit" value="no"/>
+		<string variable="orientation" value=""/>
+		<string variable="colision.red_hitboxes" value="no"/>
+		<string variable="colision.blue_hitboxes" value="no"/>
+		<string variable="state" value="stand"/>
+		<hitboxes variable="blue"/>
+		<hitboxes variable="red"/>
+		<integer variable="distance" value="0"/>
+		<integer variable="distance_absolute" value="0"/>
+
+		<!-- My Variables -->
+		<string variable="trigger.move_up" value="off"/>
+		<string variable="trigger.poison" value="off"/>
+		<string variable="jumping_state" value="no"/>
+
+		<!-- Bars -->
+		<bar variable="hp" max_value="500" current_value="500" periodic_modifier="0" period="0" alpha="255" r="255" g="0" b="0" x1="115" y1="105" x2="450" y2="135" image="misc/bars/hp.png"/>
+		<bar variable="super" max_value="500" current_value="0" periodic_modifier="0" period="0" alpha="255" r="0" g="0" b="255" x1="50" y1="150" x2="250" y2="200" image="misc/bars/acumulador.png"/>
+
+		<!-- Animation only Moves -->
+		<Move name="victory" frames="10" frame_duration="10"/>
+		<Move name="intro" frames="8" frame_duration="10"/>
+		<Move name="ko" frames="5" frame_duration="10"/>
+		<Move name="entrance" frames="8" frame_duration="3"/>
+		<Move name="change_char" frames="18" frame_duration="1"/>
+
+		<!-- Displacement Moves Triggers -->
+		<Move name="walk back" frames="4" frame_duration="9"/>
+		<Move name="walk forward" frames="4" frame_duration="9"/>
+		<Move name="jump up" frames="3" frame_duration="15"/>
+		<Move name="jump forward" frames="9" frame_duration="4"/>
+		<Move name="jump back" frames="9" frame_duration="4"/>
+
+		<!-- Displacement Moves -->
+		<Move name="move_up" frames="23" frame_duration="0" move_y="20"/>
+		<Move name="move_forward" frames="1" frame_duration="0" move_x="5"/>
+		<Move name="move_back" frames="1" frame_duration="0" move_x="-5"/>
+		<Move name="move_up_change_char" frames="1" frame_duration="0"/>
+		<Move name="move_back_change_char" frames="1" frame_duration="0"/>
+		<Move name="move_forward_change_char" frames="1" frame_duration="0"/>
+		<Move name="push_left" frames="1" frame_duration="0"/>
+		<Move name="push_right" frames="1" frame_duration="0"/>
+
+		<Move name="move_forward_dash" frames="1" frame_duration="0" move_x="27"/>
+		<Move name="move_back_backstep" frames="1" frame_duration="0" move_x="-12"/>
+
+		<!-- Normal Moves -->
+		<Move name="a" frames="3" frame_duration="3" damage="10"/>
+		<Move name="b" frames="11" frame_duration="3" damage="20"/>
+		<Move name="2" frames="1" frame_duration="0"/>
+		<Move name="2a" frames="3" frame_duration="5" damage="10"/>
+		<Move name="2b" frames="4" frame_duration="3" damage="20"/>
+		<Move name="8a" frames="4" frame_duration="7" damage="15"/>
+		<Move name="9a" frames="4" frame_duration="7" damage="15"/>
+		<Move name="5" frames="5" frame_duration="9"/>
+		<Move name="dash" frames="2" frame_duration="2"/>
+		<Move name="backstep" frames="3" frame_duration="3"/>
+
+		<!-- Super Moves -->
+		<Move name="move_up_opponent" frames="10" frame_duration="1"/>
+		<Move name="move_back_opponent" frames="5" frame_duration="1"/>
+		<string variable="trigger.move_up_opponent" value="off"/>
+		<string variable="trigger.move_back_opponent" value="off"/>
+		<Move name="super" frames="60" frame_duration="0" multihit="yes"/>
+
+		<!-- Special Moves -->
+		<Move name="tatsumaki" frames="10" frame_duration="3"/>
+		<Move name="shoryuken" frames="7" frame_duration="3"/>
+		<Move name="hadouken" frames="5" frame_duration="3"/>
+		<Move name="ulti" frames="21" frame_duration="2" multihit="yes" damage="2"/>
+
+		<!-- Defenses -->
+		<Move name="defense.standing" frames="1" frame_duration="6"/>
+		<Move name="defense.crouch" frames="1" frame_duration="6"/>
+
+		<!-- On Hits -->
+		<Move name="on_hit.stand" frames="12" frame_duration="1"/>
+		<Move name="on_hit.crouch" frames="12" frame_duration="1"/>
+		<Move name="on_hit.air" frames="6" frame_duration="2"/>
+		<Move name="on_hit.knockdown" frames="12" frame_duration="6"/>
+		<Move name="on_projectile_disolve" frames="1" frame_duration="0"/>
+
+		<!-- Other Moves -->
+		<Move name="separate" frames="1" frame_duration="0"/>
+		<Move name="poison" frames="100" frame_duration="3"/>
+		<Move name="idle jumping" frames="1" frame_duration="0"/>
+		<Move name="gravity" frames="1" frame_duration="0"/>
+
+		<!-- Gameplay Moves -->
+		<Move name="setState.jumping" frames="1" frame_duration="0"/>
+		<Move name="setState.standing" frames="1" frame_duration="0"/>
+		<Move name="setState.crouch" frames="1" frame_duration="0"/>
+		<Move name="on_land_cancel" frames="1" frame_duration="0"/>
+	</Declarations>
+</MainFile>

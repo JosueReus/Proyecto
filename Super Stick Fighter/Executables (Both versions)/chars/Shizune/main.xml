@@ -1,0 +1,58 @@
+<?xml version="1.0" standalone="no" ?>
+<MainFile>
+	<Declarations>
+		<!-- Bars -->
+		<bar variable="hp" max_value="500" current_value="500" periodic_modifier="0" period="0" alpha="255" r="255" g="0" b="0" x1="430" y1="18" x2="100" y2="56" image="misc/bars/hp.png"/>
+		<bar variable="super" max_value="500" current_value="0" periodic_modifier="0" period="0" alpha="255" r="0" g="0" b="255" x1="450" y1="150" x2="200" y2="175"/>
+
+		<!-- Animation only Moves -->
+		<Move name="victory" frames="1" frame_duration="10"/>
+		<Move name="intro" frames="4" frame_duration="10"/>
+		<Move name="ko" frames="5" frame_duration="6"/>
+
+		<!-- Displacement -->
+		<Move name="walk back" frames="8" frame_duration="6" velocity_x="-9" pushes="yes" repeat_from="1" final_velocity_x="0"/>
+		<Move name="walk forward" frames="8" frame_duration="6" velocity_x="9" pushes="yes" repeat_from="1" final_velocity_x="0"/>
+		<Move name="jump up" frames="30" frame_duration="10" velocity_y="40" acceleration_y="-2" land_cancelable="yes"/>
+		<Move name="jump forward" frames="30" frame_duration="10" velocity_y="40" acceleration_y="-2" velocity_x="20" land_cancelable="yes"/>
+		<Move name="jump back" frames="30" frame_duration="10" velocity_y="40" acceleration_y="-2" velocity_x="-20" land_cancelable="yes"/>
+		<Move name="backstep" frames="1" frame_duration="25" velocity_x="-25" acceleration_x="1"/>
+		<Move name="air backstep" frames="1" frame_duration="15" velocity_x="-35" acceleration_x="1" friction="yes" final_velocity_x="-30" final_velocity_y="0" final_acceleration_x="1" final_acceleration_y="-2"/>
+		<Move name="dash" frames="1" frame_duration="25" velocity_x="25" acceleration_x="-1" pushes="yes" friction="yes"/>
+		<Move name="air dash" frames="1" frame_duration="15" velocity_x="35" acceleration_x="-1" friction="yes" final_velocity_x="30" final_velocity_y="0" final_acceleration_x="-1" final_acceleration_y="-2"/>
+
+		<!-- Idle Moves -->
+		<Move name="idle.stand" frames="1" frame_duration="6" separate_blue="5"/>
+		<Move name="idle.jump" frames="100" frame_duration="100" inherits_velocity="yes" land_cancelable="yes" friction="yes"/>
+		<Move name="idle.crouch" frames="3" frame_duration="6" repeat_from="3" inherits_velocity="yes" friction="yes"/>
+		<Move name="idle.land_cancel" frames="2" frame_duration="2"/>
+
+		<!-- Normal Attacks -->
+		<Move name="a" frames="4" frame_duration="6" damage="10" separate_red="5" is_attack="yes" inherits_velocity="yes" friction="yes"/>
+		<Move name="b" frames="1" frame_duration="6" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="crouch a" frames="3" frame_duration="6" damage="10" separate_red="5" crouched="yes" is_attack="yes" inherits_velocity="yes" friction="yes"/>
+		<Move name="crouch b" frames="3" frame_duration="6" damage="10" separate_red="5" crouched="yes" is_attack="yes" inherits_velocity="yes" friction="yes"/>
+		<Move name="air a" frames="2" frame_duration="6" damage="15" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+<!-- velocity_x="15" acceleration_x="1" velocity_y="-15" acceleration_y="-1"-->
+		<Move name="air b" inherits_velocity="yes" frames="2" frame_duration="10" damage="15" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="grab" frames="25" frame_duration="0" damage="10" velocity_x="17" cancel_on_hit="grab_cont"/>
+		<Move name="grab_cont" frames="15" frame_duration="4" velocity_x="15" acceleration_x="-1" friction="yes"/>
+
+		<!-- Super Attacks -->
+		<Move name="super" frames="20" frame_duration="6" damage="200" stop_time_at="2" resume_time_at="18" is_attack="yes"/>
+
+		<!-- Defenses -->
+		<Move name="defense.stand" frames="1" frame_duration="6"/>
+		<Move name="defense.crouch" frames="1" frame_duration="6" crouched="yes"/>
+
+		<!-- On Hits -->
+		<Move name="on_hit.stand" frames="2" frame_duration="6"/>
+		<Move name="on_hit.stand_low" frames="2" frame_duration="6"/>
+		<Move name="on_hit.crouch" frames="2" frame_duration="6" crouched="yes"/>
+		<Move name="on_hit.air" frames="1000" frame_duration="2" acceleration_y="-3" velocity_x="-10" velocity_y="20" land_cancelable="yes"/>
+		<Move name="on_hit.knockdown" frames="20" frame_duration="3" velocity_x="30" acceleration_x="-1" friction="yes"/>
+		<!-- Projectiles hits-->
+		<Move name="on_projectile_disolve" frames="1" frame_duration="0"/>
+		<Move name="on_projectile_disolve_chip" frames="1" frame_duration="0"/>
+	</Declarations>
+</MainFile>

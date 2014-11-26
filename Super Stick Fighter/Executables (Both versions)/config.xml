@@ -1,0 +1,23 @@
+<ConfigFile>
+	<ScreenSize x="1366" y="768"/>
+	<Resolution x="1366" y="768"/>
+	<Fullscreen enabled="no"/>
+	<Font red="0" green="0" blue="255" size="80"/>
+
+</ConfigFile>
+
+<ScreenSize x="1366" y="768"/>
+<Resolution x="1366" y="768"/>
+<Fullscreen enabled="no"/>
+<Font red="0" green="0" blue="255" size="80"/>
+<Chars>
+	<char nombre="Shizune"/>
+	<char nombre="Sho"/>
+	<char nombre="Mole"/>
+</Chars>
+<Stages>
+	<stage nombre="CastleSuzaku"/>
+</Stages>
+<IntroAnimation frames="20" duration="5"/>
+<KOAnimation frames="0" duration="5"/>
+<VictoryIcon x="180" y="120"/>

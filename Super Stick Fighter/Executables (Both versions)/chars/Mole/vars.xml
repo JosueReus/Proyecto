@@ -1,0 +1,179 @@
+<VarsFile>
+	<Move name="entrance">
+		<Frame number="1">
+			<String variable="position_y" value="400" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="change_char">
+		<Frame number="1">
+			<String variable="trigger.move_up" value="on" to_opponent="no"></String>
+		</Frame>
+		<Frame number="8">
+			<String variable="change_char" value="on" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="idle.stand">
+		<Frame number="1">
+			<String variable="effect.shadow" value="off" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="2">
+		<Frame number="1">
+			<String variable="trigger.crouch" value="off" to_opponent="no"/>
+		</Frame>
+	</Move>
+	<Move name="crouching">
+		<Frame number="2">
+			<String variable="trigger.crouch" value="on" to_opponent="no"/>
+		</Frame>
+	</Move>
+	<Move name="on_hit.stand">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="on_hit.crouch">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+
+		</Frame>
+	</Move>
+	<Move name="on_hit.air">
+		<Frame number="2">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+			<String variable="jumping_state" value="no" to_opponent="no"/>
+		</Frame>
+	</Move>
+	<Move name="on_hit.knockdown">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="on_projectile_disolve">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="on_projectile_disolve_chip">
+		<Frame number="1">
+			<String variable="Animation.hit" value="on" to_opponent="yes"/>
+			<Integer variable="hp.current_value" value="-15" relative="yes" flipable="no" to_opponent="no"></Integer>
+		</Frame>
+	</Move>
+	<Move name="separate">
+		<Frame number="1">
+			<Integer variable="position_x" value="-10" relative="yes" flipable="yes" to_opponent="no"></Integer>
+			<Integer variable="position_x" value="10" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+	</Move>
+	<Move name="setState.jumping">
+		<Frame number="1">
+			<String variable="state" value="jumping" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="setState.standing">
+		<Frame number="1">
+			<String variable="state" value="standing" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="setState.crouch">
+		<Frame number="1">
+			<String variable="state" value="crouch" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="gravity">
+		<Frame number="1">
+			<Integer variable="position_y" value="-10" relative="yes" flipable="no" to_opponent="no"/>
+		</Frame>
+	</Move>
+	<Move name="push_right">
+		<Frame number="1">
+			<Integer variable="position_x" value="10" relative="yes" flipable="no" to_opponent="no"/>
+			<Integer variable="position_x" value="10" relative="yes" flipable="no" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="push_left">
+		<Frame number="1">
+			<Integer variable="position_x" value="-10" relative="yes" flipable="no" to_opponent="no"/>
+			<Integer variable="position_x" value="-10" relative="yes" flipable="no" to_opponent="yes"/>
+		</Frame>
+	</Move>
+	<Move name="move_up">
+		<Frame number="1">
+			<String variable="trigger.move_up" value="off" to_opponent="no"></String>
+		</Frame>
+	</Move>
+	<Move name="move_up_change_char">
+		<Frame number="1">
+			<Integer variable="position_y" value="15" relative="yes" flipable="no" to_opponent="no"></Integer>
+		</Frame>
+	</Move>
+	<Move name="move_back_change_char">
+		<Frame number="1">
+			<Integer variable="position_x" value="-10" relative="yes" flipable="yes" to_opponent="no"></Integer>
+		</Frame>
+	</Move>
+	<Move name="move_forward_change_char">
+		<Frame number="1">
+			<Integer variable="position_x" value="10" relative="yes" flipable="yes" to_opponent="no"></Integer>
+		</Frame>
+	</Move>
+	<Move name="move_up_opponent">
+		<Frame number="1">
+			<String variable="trigger.move_up_opponent" value="off" to_opponent="no"></String>
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="2">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="3">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="4">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="5">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="6">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="7">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="8">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="9">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="10">
+			<Integer variable="position_y" value="20" relative="yes" flipable="no" to_opponent="yes"></Integer>
+		</Frame>
+	</Move>
+	<Move name="move_back_opponent">
+		<Frame number="1">
+			<String variable="trigger.move_back_opponent" value="off" to_opponent="no"></String>
+			<Integer variable="position_x" value="20" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="2">
+			<Integer variable="position_x" value="20" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="3">
+			<Integer variable="position_x" value="20" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="4">
+			<Integer variable="position_x" value="20" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+		<Frame number="5">
+			<Integer variable="position_x" value="20" relative="yes" flipable="yes" to_opponent="yes"></Integer>
+		</Frame>
+	</Move>
+	<Move name="on_land_cancel">
+		<Frame number="1">
+			<String variable="isActive.move_back" value="no" to_opponent="no"/>
+			<String variable="isActive.move_front" value="no" to_opponent="no"/>
+			<String variable="jumping_state" value="no" to_opponent="no"/>
+		</Frame>
+	</Move>
+</VarsFile>

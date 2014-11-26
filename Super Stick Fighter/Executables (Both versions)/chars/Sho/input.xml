@@ -1,0 +1,385 @@
+<InputFile>
+	<Input move_name="dizzy">
+		<button value="*"/>
+	</Input>
+
+	<!-- Super -->
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6a"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="5"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6a"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="3"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6a"/>
+	</Input>
+
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6b"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="5"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6b"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="3"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6b"/>
+	</Input>
+
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6c"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="5"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6c"/>
+	</Input>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+
+		<button value="3"/>
+
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6c"/>
+	</Input>
+
+	<!-- Specials -->
+	<Input move_name="shoryuken light">
+		<button value="6"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3a"/>
+	</Input>
+	<Input move_name="shoryuken light">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3a"/>
+	</Input>
+	<Input move_name="shoryuken light">
+		<button value="6"/>
+		<button value="3"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3a"/>
+	</Input>
+	<Input move_name="shoryuken medium">
+		<button value="6"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3b"/>
+	</Input>
+	<Input move_name="shoryuken medium">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3b"/>
+	</Input>
+	<Input move_name="shoryuken medium">
+		<button value="6"/>
+		<button value="3"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3b"/>
+	</Input>
+	<Input move_name="shoryuken fierce">
+		<button value="6"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3c"/>
+	</Input>
+	<Input move_name="shoryuken fierce">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3c"/>
+	</Input>
+	<Input move_name="shoryuken fierce">
+		<button value="6"/>
+		<button value="3"/>
+		<button value="2"/>
+		<button value="3"/>
+		<button value="3c"/>
+	</Input>
+	<Input move_name="hadouken light">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6a"/>
+	</Input>
+	<Input move_name="hadouken medium">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6b"/>
+	</Input>
+	<Input move_name="hadouken fierce">
+		<button value="2"/>
+		<button value="3"/>
+		<button value="6"/>
+		<button value="6c"/>
+	</Input>
+	<Input move_name="tatsumaki light">
+		<button value="2"/>
+		<button value="1"/>
+		<button value="4"/>
+		<button value="4d"/>
+	</Input>
+	<Input move_name="tatsumaki medium">
+		<button value="2"/>
+		<button value="1"/>
+		<button value="4"/>
+		<button value="4e"/>
+	</Input>
+	<Input move_name="tatsumaki fierce">
+		<button value="2"/>
+		<button value="1"/>
+		<button value="4"/>
+		<button value="4f"/>
+	</Input>
+
+	<!-- Defense -->
+	<Input move_name="defense.stand">
+		<button value="4"/>
+	</Input>
+	<Input move_name="defense.crouch">
+		<button value="1"/>
+	</Input>
+
+	<!-- Idle -->
+	<Input move_name="idle.stand">
+		<button value="5"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="1*"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="2*"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="3*"/>
+	</Input>
+	<Input move_name="walk back">
+		<button value="4"/>
+	</Input>
+	<Input move_name="walk forward">
+		<button value="6"/>
+	</Input>
+	<Input move_name="jump up">
+		<button value="8"/>
+	</Input>
+	<Input move_name="jump back">
+		<button value="7"/>
+	</Input>
+	<Input move_name="jump forward">
+		<button value="9"/>
+	</Input>
+	<Input move_name="grab throw punch">
+		<button value="6c"/>
+	</Input>
+	<Input move_name="grab throw kick">
+		<button value="4c"/>
+	</Input>
+	<Input move_name="grab throw punch">
+		<button value="6f"/>
+	</Input>
+	<Input move_name="grab throw kick">
+		<button value="4f"/>
+	</Input>
+	<Input move_name="stand near light punch">
+		<button value="*a"/>
+	</Input>
+	<Input move_name="stand near medium punch">
+		<button value="*b"/>
+	</Input>
+	<Input move_name="stand near fierce punch">
+		<button value="*c"/>
+	</Input>
+	<Input move_name="stand near light kick">
+		<button value="*d"/>
+	</Input>
+	<Input move_name="stand near medium kick">
+		<button value="*e"/>
+	</Input>
+	<Input move_name="stand near fierce kick">
+		<button value="*f"/>
+	</Input>
+	<Input move_name="stand light punch">
+		<button value="*a"/>
+	</Input>
+	<Input move_name="stand medium punch">
+		<button value="*b"/>
+	</Input>
+	<Input move_name="stand fierce punch">
+		<button value="*c"/>
+	</Input>
+	<Input move_name="stand light kick">
+		<button value="*d"/>
+	</Input>
+	<Input move_name="stand medium kick">
+		<button value="*e"/>
+	</Input>
+	<Input move_name="stand fierce kick">
+		<button value="*f"/>
+	</Input>
+	<Input move_name="crouch light punch">
+		<button value="1a"/>
+	</Input>
+	<Input move_name="crouch light punch">
+		<button value="2a"/>
+	</Input>
+	<Input move_name="crouch light punch">
+		<button value="3a"/>
+	</Input>
+	<Input move_name="crouch medium punch">
+		<button value="1b"/>
+	</Input>
+	<Input move_name="crouch medium punch">
+		<button value="2b"/>
+	</Input>
+	<Input move_name="crouch medium punch">
+		<button value="3b"/>
+	</Input>
+	<Input move_name="crouch fierce punch">
+		<button value="1c"/>
+	</Input>
+	<Input move_name="crouch fierce punch">
+		<button value="2c"/>
+	</Input>
+	<Input move_name="crouch fierce punch">
+		<button value="3c"/>
+	</Input>
+	<Input move_name="crouch light kick">
+		<button value="1d"/>
+	</Input>
+	<Input move_name="crouch light kick">
+		<button value="2d"/>
+	</Input>
+	<Input move_name="crouch light kick">
+		<button value="3d"/>
+	</Input>
+	<Input move_name="crouch medium kick">
+		<button value="1e"/>
+	</Input>
+	<Input move_name="crouch medium kick">
+		<button value="2e"/>
+	</Input>
+	<Input move_name="crouch medium kick">
+		<button value="3e"/>
+	</Input>
+	<Input move_name="crouch fierce kick">
+		<button value="1f"/>
+	</Input>
+	<Input move_name="crouch fierce kick">
+		<button value="2f"/>
+	</Input>
+	<Input move_name="crouch fierce kick">
+		<button value="3f"/>
+	</Input>
+	<Input move_name="air light punch">
+		<button value="*a"/>
+	</Input>
+	<Input move_name="air medium punch">
+		<button value="*b"/>
+	</Input>
+	<Input move_name="air fierce punch">
+		<button value="*c"/>
+	</Input>
+	<Input move_name="air light kick">
+		<button value="*d"/>
+	</Input>
+	<Input move_name="air medium kick">
+		<button value="*e"/>
+	</Input>
+	<Input move_name="air fierce kick">
+		<button value="*f"/>
+	</Input>
+	<Input move_name="air up light kick">
+		<button value="*d"/>
+	</Input>
+	<Input move_name="air up medium kick">
+		<button value="*e"/>
+	</Input>
+	<Input move_name="air up fierce kick">
+		<button value="*f"/>
+	</Input>
+	<!-- On hit -->
+	<Input move_name="on_hit.knockdown">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.stand">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.air">
+		<button value="*"/>
+	</Input>
+</InputFile>

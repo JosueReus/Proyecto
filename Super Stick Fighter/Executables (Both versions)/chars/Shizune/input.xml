@@ -1,0 +1,229 @@
+<InputFile>
+	<Input move_name="jump up">
+		<button value="8"/>
+	</Input>
+	<Input move_name="jump forward">
+		<button value="9"/>
+	</Input>
+	<Input move_name="jump back">
+		<button value="7"/>
+	</Input>
+	<Input move_name="backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="air backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="air backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="air backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="air backstep">
+		<button value="4"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="4"/>
+	</Input>
+	<Input move_name="air dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="air dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="air dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+	<Input move_name="air dash">
+		<button value="6"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="5"/>
+		<button value="6"/>
+	</Input>
+<!--
+	<Input move_name="defense.stand">
+		<button value="4"/>
+	</Input>
+-->
+	<Input move_name="defense.crouch">
+		<button value="4"/>
+	</Input>
+	<Input move_name="defense.crouch">
+		<button value="1"/>
+	</Input>
+	<Input move_name="air a">
+		<button value="*a"/>
+	</Input>
+	<Input move_name="air b">
+		<button value="*b"/>
+	</Input>
+	<!-- Standing normal -->
+	<Input move_name="a">
+		<button value="a"/>
+	</Input>
+	<Input move_name="a">
+		<button value="4a"/>
+	</Input>
+	<Input move_name="a">
+		<button value="6a"/>
+	</Input>
+	<Input move_name="super">
+		<button value="c"/>
+	</Input>
+	<Input move_name="super">
+		<button value="4c"/>
+	</Input>
+	<Input move_name="super">
+		<button value="6c"/>
+	</Input>
+<!--
+	<Input move_name="b">
+		<button value="b"/>
+	</Input>
+	<Input move_name="b">
+		<button value="4b"/>
+	</Input>
+	<Input move_name="b">
+		<button value="6b"/>
+	</Input>
+-->
+	<Input move_name="grab">
+		<button value="b"/>
+	</Input>
+	<Input move_name="grab">
+		<button value="4b"/>
+	</Input>
+	<Input move_name="grab">
+		<button value="6b"/>
+	</Input>
+	<!-- Crouch normal -->
+	<Input move_name="crouch a">
+		<button value="1a"/>
+	</Input>
+	<Input move_name="crouch a">
+		<button value="2a"/>
+	</Input>
+	<Input move_name="crouch a">
+		<button value="3a"/>
+	</Input>
+	<Input move_name="crouch b">
+		<button value="1b"/>
+	</Input>
+	<Input move_name="crouch b">
+		<button value="2b"/>
+	</Input>
+	<Input move_name="crouch b">
+		<button value="3b"/>
+	</Input>
+	<Input move_name="idle.stand">
+		<button value="5"/>
+	</Input>
+	<Input move_name="walk forward">
+		<button value="6"/>
+	</Input>
+	<Input move_name="walk back">
+		<button value="4"/>
+	</Input>
+	<Input move_name="on_hit.stand">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.stand_low">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.knockdown">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.crouch">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.air">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_projectile_disolve">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_projectile_disolve_chip">
+		<button value="*"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="1*"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="2*"/>
+	</Input>
+	<Input move_name="idle.crouch">
+		<button value="3*"/>
+	</Input>
+</InputFile>

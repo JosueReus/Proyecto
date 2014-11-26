@@ -1,0 +1,17 @@
+<Image x="0" y="0" width="1280" height="800" visible="true" path="fondo.png" />
+
+<Container x="0" y="0" width="600" height="550" visible="true" seleccionado="true">
+
+	<Button x="0" y="35" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="1v1" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="1v1" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="pvcpu_menus/1v1.xml"/>
+
+	<Button x="0" y="223" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="2v2" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="2v2" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="pvcpu_menus/2v2.xml"/>
+
+	<Button x="0" y="398" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="3v3" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="3v3" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="pvcpu_menus/3v3.xml"/>
+
+</Container>

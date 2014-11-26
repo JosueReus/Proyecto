@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpritesFile>
+    <IgnoreColor blue="80" green="87" red="13"/>
+    <Move name="intro">
+        <Sprite align_x="2" align_y="0" frame_number="1"
+            path="sprites/intro/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="2" align_y="0" frame_number="2"
+            path="sprites/intro/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="27" align_y="0" frame_number="3"
+            path="sprites/intro/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="31" align_y="0" frame_number="4"
+            path="sprites/intro/4.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.stand">
+        <Sprite align_x="31" align_y="0" frame_number="1"
+            path="sprites/idle/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.land_cancel">
+        <Sprite align_x="15" align_y="0" frame_number="1"
+            path="sprites/crouching/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="15" align_y="0" frame_number="2"
+            path="sprites/idle/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="walk forward">
+        <Sprite align_x="-15" align_y="0" frame_number="1"
+            path="sprites/walk/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-11" align_y="0" frame_number="2"
+            path="sprites/walk/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-11" align_y="0" frame_number="3"
+            path="sprites/walk/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-13" align_y="0" frame_number="4"
+            path="sprites/walk/4.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-12" align_y="0" frame_number="5"
+            path="sprites/walk/5.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-14" align_y="0" frame_number="6"
+            path="sprites/walk/6.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-17" align_y="0" frame_number="7"
+            path="sprites/walk/7.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-19" align_y="0" frame_number="8"
+            path="sprites/walk/8.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="walk back">
+        <Sprite align_x="-19" align_y="0" frame_number="1"
+            path="sprites/walk/8.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-17" align_y="0" frame_number="2"
+            path="sprites/walk/7.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-14" align_y="0" frame_number="3"
+            path="sprites/walk/6.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-12" align_y="0" frame_number="4"
+            path="sprites/walk/5.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-13" align_y="0" frame_number="5"
+            path="sprites/walk/4.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-11" align_y="0" frame_number="6"
+            path="sprites/walk/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-11" align_y="0" frame_number="7"
+            path="sprites/walk/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-15" align_y="0" frame_number="8"
+            path="sprites/walk/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.crouch">
+        <Sprite align_x="15" align_y="0" frame_number="1"
+            path="sprites/crouching/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-7" align_y="0" frame_number="2"
+            path="sprites/crouching/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-7" align_y="0" frame_number="2"
+            path="sprites/crouching/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="a">
+        <Sprite align_x="44" align_y="0" frame_number="1"
+            path="sprites/a/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="74" align_y="0" frame_number="2"
+            path="sprites/a/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="81" align_y="0" frame_number="3"
+            path="sprites/a/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="81" align_y="0" frame_number="4"
+            path="sprites/a/4.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="b">
+        <Sprite align_x="44" align_y="0" frame_number="1"
+            path="sprites/not_done.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/dash/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab_cont">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/grab/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/grab/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/grab/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/grab/4.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch a">
+        <Sprite align_x="-2" align_y="1" frame_number="1"
+            path="sprites/crouch a/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="33" align_y="0" frame_number="2"
+            path="sprites/crouch a/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-2" align_y="1" frame_number="3"
+            path="sprites/crouch a/2.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch b">
+        <Sprite align_x="-4" align_y="4" frame_number="1"
+            path="sprites/crouch b/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="61" align_y="-6" frame_number="2"
+            path="sprites/crouch b/2.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air a">
+        <Sprite align_x="25" align_y="99" frame_number="1"
+            path="sprites/air a/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="24" align_y="111" frame_number="2"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air b">
+        <Sprite align_x="54" align_y="9" frame_number="1"
+            path="sprites/air b/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="24" align_y="111" frame_number="2"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump up">
+        <Sprite align_x="31" align_y="0" frame_number="1"
+            path="sprites/jump/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="21" align_y="98" frame_number="2"
+            path="sprites/jump/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="24" align_y="110" frame_number="3"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump forward">
+        <Sprite align_x="31" align_y="0" frame_number="1"
+            path="sprites/jump/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="21" align_y="98" frame_number="2"
+            path="sprites/jump/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="24" align_y="110" frame_number="3"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump back">
+        <Sprite align_x="31" align_y="0" frame_number="1"
+            path="sprites/jump/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="21" align_y="98" frame_number="2"
+            path="sprites/jump/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="24" align_y="110" frame_number="3"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.jump">
+        <Sprite align_x="24" align_y="110" frame_number="1"
+            path="sprites/jump/3.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="backstep">
+        <Sprite align_x="-25" align_y="0" frame_number="1"
+            path="sprites/backstep/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="dash">
+        <Sprite align_x="25" align_y="0" frame_number="1"
+            path="sprites/dash/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air backstep">
+        <Sprite align_x="-25" align_y="0" frame_number="1"
+            path="sprites/backstep/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air dash">
+        <Sprite align_x="25" align_y="0" frame_number="1"
+            path="sprites/dash/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.stand">
+        <Sprite align_x="14" align_y="0" frame_number="1"
+            path="sprites/on_hit_high/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="2" align_y="0" frame_number="2"
+            path="sprites/on_hit_high/2.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.stand_low">
+        <Sprite align_x="14" align_y="0" frame_number="1"
+            path="sprites/on_hit_stand/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="2" align_y="0" frame_number="2"
+            path="sprites/on_hit_stand/2.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.crouch">
+        <Sprite align_x="-3" align_y="-3" frame_number="1"
+            path="sprites/on_hit_crouch/1.png" scale="2"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-3" align_y="1" frame_number="2"
+            path="sprites/on_hit_crouch/2.png" scale="2"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.air">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/fall/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.knockdown">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/fall/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/fall/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/fall/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/fall/4.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/fall/5.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/fall/6.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/fall/7.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="8"
+            path="sprites/fall/8.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-7" align_y="0" frame_number="17"
+            path="sprites/crouching/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="15" align_y="0" frame_number="19"
+            path="sprites/crouching/1.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="defense.stand">
+        <Sprite align_x="-6" align_y="0" frame_number="1"
+            path="sprites/not_done.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="defense.crouch">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/crouch_defense/1.png" scale="2"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="super">
+        <Sprite align_x="17" align_y="0" frame_number="1"
+            path="sprites/super/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="6" align_y="0" frame_number="2"
+            path="sprites/super/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="2" align_y="0" frame_number="3"
+            path="sprites/super/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="1" align_y="0" frame_number="4"
+            path="sprites/super/4.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-2" align_y="-6" frame_number="5"
+            path="sprites/super/5.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="2" align_y="-6" frame_number="6"
+            path="sprites/super/6.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="6" align_y="-6" frame_number="7"
+            path="sprites/super/7.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="8" align_y="-6" frame_number="8"
+            path="sprites/super/8.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-5" align_y="-5" frame_number="9"
+            path="sprites/super/9.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="22" align_y="-10" frame_number="10"
+            path="sprites/super/10.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="15" align_y="0" frame_number="11"
+            path="sprites/super/11.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="14" align_y="3" frame_number="12"
+            path="sprites/super/12.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="17" align_y="0" frame_number="13"
+            path="sprites/super/13.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="16" align_y="0" frame_number="14"
+            path="sprites/super/14.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="7" align_y="0" frame_number="15"
+            path="sprites/super/15.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="16"
+            path="sprites/super/16.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="4" align_y="0" frame_number="17"
+            path="sprites/super/17.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="8" align_y="0" frame_number="18"
+            path="sprites/super/18.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="4" align_y="0" frame_number="19"
+            path="sprites/super/19.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="-5" align_y="0" frame_number="20"
+            path="sprites/super/20.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="ko">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/ko/1.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/ko/2.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/ko/3.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/ko/4.png" scale="2" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/ko/5.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="victory">
+        <Sprite align_x="-6" align_y="0" frame_number="1"
+            path="sprites/not_done.png" scale="2" to_opponent="no" variable="current_image"/>
+    </Move>
+</SpritesFile>

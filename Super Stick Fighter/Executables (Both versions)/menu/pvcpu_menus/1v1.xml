@@ -1,0 +1,17 @@
+<Image x="0" y="0" width="1280" height="800" visible="true" path="fondo2.png" />
+
+<CharSelect x="420" y="380" width="1024" height="600" visible="true" size_x="3" size_y="2" box_size_x="200" box_size_y="200" box_separation_x="5" box_separation_y="7" chars_player1="1" chars_player2="1"
+preview_player1_x="70" preview_player1_y="200"
+preview_player2_x="920" preview_player2_y="200"
+player1_cursor_x="0" player1_cursor_y="0"
+player2_cursor_x="2" player2_cursor_y="1"/>
+
+<Container x="0" y="0" width="600" height="550" visible="true" seleccionado="true">
+	<List x="420" y="50" width="50" height="50" visible="true"
+	arrow_left_x="140" arrow_left_y="220" path_left="flecha_izq.png"
+	arrow_right_x="240" arrow_right_y="220" path_right="flecha_der.png"
+	arrow_left_x_selected="140" arrow_left_y_selected="-220" path_left_selected="flecha_izq2.png"
+	arrow_right_x_selected="240" arrow_right_y_selected="-220" path_right_selected="flecha_der2.png" action="1v1cpu">
+		<stage x="0" y="0" width="430" height="200" visible="true" alpha="255" red="255" green="255" blue="255" />
+	</List>
+</Container>

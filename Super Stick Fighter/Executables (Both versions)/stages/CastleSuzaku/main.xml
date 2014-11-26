@@ -1,0 +1,19 @@
+<StageFile>
+	<StageSize x="2080"/>
+	<Floor position="30"/>
+	<BackLayer frame_duration="40" depth_effect_x="0" depth_effect_y="0" alignment_x="0" alignment_y="390">
+		<frame image_path="Layer5.png" size_x="1280" size_y="410"/>
+	</BackLayer>
+	<BackLayer frame_duration="40" depth_effect_x="0" depth_effect_y="0" alignment_x="0" alignment_y="350">
+		<frame image_path="Layer4.png" size_x="1391" size_y="324"/>
+	</BackLayer>
+	<BackLayer frame_duration="40" depth_effect_x="5" depth_effect_y="5" alignment_x="400" alignment_y="400">
+		<frame image_path="Layer3.png" size_x="560" size_y="295"/>
+	</BackLayer>
+	<BackLayer frame_duration="40" depth_effect_x="2" depth_effect_y="2" alignment_x="0" alignment_y="-32">
+		<frame image_path="Layer2.png" size_x="2000" size_y="931"/>
+	</BackLayer>
+	<BackLayer frame_duration="5" depth_effect_x="1" depth_effect_y="1" alignment_x="0" alignment_y="0">
+		<frame image_path="Layer1.png" size_x="2080" size_y="610"/>
+	</BackLayer>
+</StageFile>

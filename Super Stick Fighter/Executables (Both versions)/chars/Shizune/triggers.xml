@@ -1,0 +1,488 @@
+<TriggersFile>
+	<Move name="jump up">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="jump forward">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="jump back">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="backstep">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="dash">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="air backstep">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump up" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="air dash">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump up" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="idle.stand">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="defense.stand">
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="defense.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="defense.crouch">
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+<!-- defense standing placeholder -->
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="defense.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="attacking" relational_op="=" right_exp="yes" to_opponent="yes"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="idle.crouch">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="backstep" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="dash" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="air a">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.jump" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="air backstep" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="air dash" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump up" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="air b">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.jump" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="air backstep" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="air dash" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump up" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="jump back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="a">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="dash" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="super">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+			<condition left_exp="super.current_value" relational_op="=" right_exp="500" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+			<condition left_exp="super.current_value" relational_op="=" right_exp="500" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+			<condition left_exp="super.current_value" relational_op="=" right_exp="500" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="b">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="crouch a">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+
+
+	</Move>
+	<Move name="crouch b">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand" to_opponent="yes"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.stand_low" to_opponent="yes"/>
+		</Trigger>
+
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="on_hit.crouch" to_opponent="yes"/>
+		</Trigger>
+	</Move>
+	<Move name="grab">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="walk forward">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk back" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="walk back">
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.stand" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="current_move" relational_op="=" right_exp="walk forward" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="on_hit.knockdown">
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="grab_cont" to_opponent="yes"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="on_hit.stand">
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="on_hit.stand_low">
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch a" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op="=" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.stand" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="yes"/>
+		</Trigger>
+	</Move>
+	<Move name="on_hit.crouch">
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="idle.crouch" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="=" right_exp="crouch b" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="defense.crouch" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="on_hit.air">
+		<Trigger>
+			<condition left_exp="hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op=">" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="grab" to_opponent="yes"/>
+		</Trigger>
+		<Trigger>
+			<condition left_exp="projectile_hit" relational_op="=" right_exp="yes" to_opponent="no"/>
+			<condition left_exp="position_y" relational_op=">" right_exp="0" to_opponent="no"/>
+			<condition left_exp="current_move" relational_op="!=" right_exp="grab" to_opponent="yes"/>
+		</Trigger>
+	</Move>
+	<Move name="on_projectile_disolve">
+		<Trigger>
+			<condition left_exp="projectile_disolve" relational_op="=" right_exp="yes" to_opponent="no"/>
+		</Trigger>
+	</Move>
+	<Move name="on_projectile_disolve_chip">
+		<Trigger>
+			<condition left_exp="projectile_disolve_chip" relational_op="=" right_exp="yes" to_opponent="no"/>
+		</Trigger>
+	</Move>
+</TriggersFile>

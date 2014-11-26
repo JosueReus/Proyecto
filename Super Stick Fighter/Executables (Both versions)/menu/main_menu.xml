@@ -1,0 +1,8 @@
+<Image x="0" y="0" width="1280" height="800" visible="true" path="startscreen.png" />
+
+<Container x="33" y="75" width="600" height="550" visible="true" seleccionado="true">
+	<Button x="1500" y="0" width="594" height="178" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="PvCPU" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="PvCPU" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="first_menu.xml"/>
+
+</Container>

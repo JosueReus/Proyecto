@@ -1,0 +1,9 @@
+<State name="S">
+	<!--<Action input="5" destination="S" reward="2" wait="25"/>-->
+	<!-- normales -->
+	<Action input="a" destination="S" reward="50" rewardable="yes">
+		<condition_integer left_exp="distance_absolute" relational_op="<" right_exp="200" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="!=" right_exp="2" to_opponent="yes"/>
+	</Action>
+</State>
+

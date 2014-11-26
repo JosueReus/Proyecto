@@ -1,0 +1,99 @@
+<?xml version="1.0" standalone="no" ?>
+<MainFile>
+	<Declarations>
+
+		<!-- Variablables -->
+		<sprite variable="current_image" path="sprites/displacement/standing/1.png" scale="1" align_x="0" align_y="0"/>
+		<string variable="current_move" value="5"/>
+		<string variable="change_char" value="off"/>
+		<string variable="hit" value="no"/>
+		<string variable="projectile_disolve" value="no"/>
+		<string variable="projectile_disolve_chip" value="no"/>
+		<string variable="projectile_hit" value="no"/>
+		<string variable="orientation" value=""/>
+		<string variable="colision.red_hitboxes" value="no"/>
+		<string variable="colision.blue_hitboxes" value="no"/>
+		<string variable="state" value="stand"/>
+		<hitboxes variable="blue"/>
+		<hitboxes variable="red"/>
+		<integer variable="distance" value="0"/>
+		<integer variable="distance_absolute" value="0"/>
+
+		<!-- My Variables -->
+		<string variable="trigger.crouch" value="off"/>
+		<string variable="trigger.move_up" value="off"/>
+		<string variable="trigger.poison" value="off"/>
+		<string variable="jumping_state" value="no"/>
+
+		<!-- Bars -->
+		<bar variable="hp" max_value="500" current_value="500" periodic_modifier="0" period="0" alpha="255" r="255" g="0" b="0" x1="430" y1="18" x2="100" y2="56" image="misc/bars/hp.png"/>
+		<bar variable="super" max_value="500" current_value="0" periodic_modifier="0" period="0" alpha="255" r="0" g="0" b="255" x1="200" y1="150" x2="450" y2="175"/>
+
+		<!-- Animation only Moves -->
+		<Move name="victory" frames="12" frame_duration="10"/>
+		<Move name="intro" frames="8" frame_duration="10"/>
+		<Move name="ko" frames="5" frame_duration="10"/>
+		<Move name="entrance" frames="8" frame_duration="3"/>
+		<Move name="change_char" frames="18" frame_duration="1"/>
+
+		<!-- Displacement Moves Triggers -->
+		<Move name="walk back" frames="5" frame_duration="6"/>
+		<Move name="walk forward" frames="5" frame_duration="6"/>
+
+		<!-- Displacement Moves -->
+		<Move name="move_up" frames="18" frame_duration="0" move_y="50"/>
+		<Move name="move_forward" frames="1" frame_duration="0" move_x="15"/>
+		<Move name="move_back" frames="1" frame_duration="0" move_x="-15"/>
+		<Move name="move_up_change_char" frames="1" frame_duration="0"/>
+		<Move name="move_back_change_char" frames="1" frame_duration="0"/>
+		<Move name="move_forward_change_char" frames="1" frame_duration="0"/>
+		<Move name="push_left" frames="1" frame_duration="0"/>
+		<Move name="push_right" frames="1" frame_duration="0"/>
+
+		<!-- Normal Moves -->
+		<Move name="2" frames="2" frame_duration="0"/>
+		<Move name="crouching" frames="2" frame_duration="6"/>
+		<Move name="8a" frames="3" frame_duration="3" damage="15"/>
+		<Move name="9a" frames="2" frame_duration="6" damage="15"/>
+		<Move name="idle.stand" frames="4" frame_duration="6"/>
+
+		<!-- Normal Attacks -->
+		<Move name="slash" frames="5" frame_duration="5" damage="30" chip_damage="0"/>
+		<Move name="overhead slash" frames="6" frame_duration="5" damage="30" chip_damage="0" unblockable_low="yes"/>
+		<Move name="low slash" frames="4" frame_duration="5" damage="30" chip_damage="0" unblockable_high="yes"/>
+
+		<!-- Extra -->
+		<Move name="weapon clash" frames="5" frame_duration="5" move_x="-40"/>
+
+		<!-- Super Moves -->
+		<Move name="move_up_opponent" frames="10" frame_duration="1"/>
+		<Move name="move_back_opponent" frames="5" frame_duration="1"/>
+		<string variable="trigger.move_up_opponent" value="off"/>
+		<string variable="trigger.move_back_opponent" value="off"/>
+		<Move name="super" frames="60" frame_duration="0" multihit="yes" damage="15"/>
+
+		<!-- Defenses -->
+		<Move name="defense.high" frames="1" frame_duration="6"/>
+		<Move name="defense.low" frames="1" frame_duration="6"/>
+
+		<!-- On Hits -->
+		<Move name="on_hit.stand" frames="12" frame_duration="1"/>
+		<Move name="on_hit.crouch" frames="12" frame_duration="1"/>
+		<Move name="on_hit.air" frames="6" frame_duration="2"/>
+		<Move name="on_hit.knockdown" frames="12" frame_duration="6"/>
+		<Move name="on_projectile_disolve" frames="1" frame_duration="0"/>
+		<Move name="on_projectile_disolve_chip" frames="1" frame_duration="0"/>
+
+		<!-- Other Moves -->
+		<Move name="separate" frames="1" frame_duration="0" move_y="-10"/>
+		<Move name="poison" frames="100" frame_duration="3"/>
+		<Move name="idle jumping" frames="1" frame_duration="0"/>
+		<Move name="gravity" frames="1" frame_duration="0" move_y="-10"/>
+
+		<!-- Gameplay Moves -->
+		<Move name="setState.jumping" frames="1" frame_duration="0"/>
+		<Move name="setState.standing" frames="1" frame_duration="0"/>
+		<Move name="setState.crouch" frames="1" frame_duration="0"/>
+		<Move name="on_land_cancel" frames="1" frame_duration="0"/>
+	</Declarations>
+</MainFile>

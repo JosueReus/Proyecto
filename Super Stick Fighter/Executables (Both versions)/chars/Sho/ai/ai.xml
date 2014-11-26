@@ -1,0 +1,144 @@
+<State name="S">
+	<Action input="5" destination="S" reward="2" wait="25"/>
+	<!-- normales -->
+	<Action input="a" destination="S" reward="5" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="!=" right_exp="2" to_opponent="yes"/>
+	</Action>
+	<Action input="b" destination="S" reward="5" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="!=" right_exp="2" to_opponent="yes"/>
+	</Action>
+	<Action input="2a" destination="S" reward="5" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="yes"/>
+	</Action>
+	<Action input="2f" destination="S" reward="5" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="yes"/>
+	</Action>
+	<Action input="2e" destination="S" reward="5" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="=" right_exp="2" to_opponent="yes"/>
+	</Action>
+
+
+	<!-- jumps -->
+	<Action input="9" destination="j1" reward="50" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="d" to_opponent="no"/>
+		<condition_integer left_exp="distance" relational_op=">" right_exp="200" to_opponent="no"/>
+	</Action>
+	<Action input="7" destination="j1i" reward="50" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="i" to_opponent="no"/>
+		<condition_integer left_exp="distance" relational_op=">" right_exp="200" to_opponent="no"/>
+	</Action>
+
+	<!-- walk -->
+	<Action input="6" destination="walk right" reward="50" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op=">" right_exp="100" to_opponent="no"/>
+		<condition left_exp="orientation" relational_op="=" right_exp="d" to_opponent="no"/>
+	</Action>
+	<Action input="4" destination="walk left" reward="50" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op=">" right_exp="100" to_opponent="no"/>
+		<condition left_exp="orientation" relational_op="=" right_exp="i" to_opponent="no"/>
+	</Action>
+
+
+	<!-- special -->
+	<Action input="2" destination="t1" reward="5" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="d" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="!=" right_exp="7" to_opponent="yes"/>
+		<condition_integer left_exp="distance" relational_op=">" right_exp="200" to_opponent="no"/>
+	</Action>
+	<Action input="2" destination="t1i" reward="5" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="i" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="!=" right_exp="9" to_opponent="yes"/>
+		<condition_integer left_exp="distance" relational_op=">" right_exp="200" to_opponent="no"/>
+	</Action>
+	<Action input="6" destination="s1" reward="100" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="d" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="=" right_exp="7" to_opponent="yes"/>
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+	</Action>
+	<Action input="4" destination="s1i" reward="100" rewardable="yes">
+		<condition left_exp="orientation" relational_op="=" right_exp="i" to_opponent="no"/>
+		<condition left_exp="current_move" relational_op="=" right_exp="9" to_opponent="yes"/>
+		<condition_integer left_exp="distance" relational_op="<" right_exp="150" to_opponent="no"/>
+	</Action>
+</State>
+
+<!-- walk -->
+<State name="walk right">
+	<Action input="6" destination="walk right" reward="50" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op=">" right_exp="100" to_opponent="no"/>
+	</Action>
+	<Action input="5" destination="S" reward="2" wait="25"/>
+</State>
+<State name="walk left">
+	<Action input="4" destination="walk left" reward="50" rewardable="yes">
+		<condition_integer left_exp="distance" relational_op=">" right_exp="100" to_opponent="no"/>
+	</Action>
+	<Action input="5" destination="S" reward="2" wait="25"/>
+</State>
+
+<!-- jump -->
+<State name="j1">
+	<Action input="5" destination="j2" reward="5" wait="15"/>
+</State>
+<State name="j2">
+	<Action input="d" destination="S" reward="5" wait="15"/>
+</State>
+<State name="j1i">
+	<Action input="5" destination="j2i" reward="5" wait="15"/>
+</State>
+<State name="j2i">
+	<Action input="d" destination="S" reward="5" wait="15"/>
+</State>
+
+<!-- hadouken -->
+<State name="h1">
+	<Action input="6" destination="h2" reward="5"/>
+</State>
+<State name="h2">
+	<Action input="6a" destination="S" reward="5"/>
+</State>
+<State name="h1i">
+	<Action input="4" destination="h2i" reward="5"/>
+</State>
+<State name="h2i">
+	<Action input="4a" destination="S" reward="5"/>
+</State>
+
+<!-- tatsumaki -->
+<State name="t1">
+	<Action input="4" destination="t2" reward="5"/>
+</State>
+<State name="t2">
+	<Action input="4d" destination="S" reward="5"/>
+</State>
+<State name="t1i">
+	<Action input="6" destination="t2i" reward="5"/>
+</State>
+<State name="t2i">
+	<Action input="6d" destination="S" reward="5"/>
+</State>
+
+<!-- shoryuken -->
+<State name="s1">
+	<Action input="2" destination="s2" reward="5"/>
+</State>
+<State name="s2">
+	<Action input="3" destination="s3" reward="5"/>
+</State>
+<State name="s3">
+	<Action input="3a" destination="S" reward="5"/>
+</State>
+<State name="s1i">
+	<Action input="2" destination="s2i" reward="5"/>
+</State>
+<State name="s2i">
+	<Action input="1" destination="s3i" reward="5"/>
+</State>
+<State name="s3i">
+	<Action input="1a" destination="S" reward="5"/>
+</State>

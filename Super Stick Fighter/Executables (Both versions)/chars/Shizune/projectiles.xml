@@ -1,0 +1,11 @@
+<ProjectilesFile>
+	<projectile name="hadouken" position_x="125" position_y="130" frames="30" frame_duration="3" speed_x="30" speed_y="0" damage="40">
+		<Sprites>
+			<Sprite path="sprites/projectiles/hadouken/1.png" scale="1" align_x="0" align_y="0" to_opponent="no"/>
+			<Sprite path="sprites/projectiles/hadouken/2.png" scale="1" align_x="0" align_y="0" ignore_red="0" ignore_green="0" ignore_blue="0" to_opponent="no"/>
+		</Sprites>
+		<Hitboxes frame="0">
+			<Hitbox x1="-50" y1="50" x2="50" y2="-50"/>
+		</Hitboxes>
+	</projectile>
+<ProjectilesFile/>

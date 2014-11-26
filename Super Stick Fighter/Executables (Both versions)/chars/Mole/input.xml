@@ -1,0 +1,173 @@
+<InputFile>
+	<Input move_name="super">
+		<button value="2"/>
+		<button value="6"/>
+		<button value="2"/>
+		<button value="6"/>
+		<button value="6a"/>
+	</Input>
+	<Input move_name="change_char">
+		<button value="ab"/>
+	</Input>
+	<Input move_name="defense.high">
+		<button value="4"/>
+	</Input>
+	<Input move_name="defense.low">
+		<button value="1"/>
+	</Input>
+	<!-- Standing normal -->
+	<Input move_name="slash">
+		<button value="a"/>
+	</Input>
+	<Input move_name="slash">
+		<button value="4a"/>
+	</Input>
+	<Input move_name="slash">
+		<button value="6a"/>
+	</Input>
+	<Input move_name="overhead slash">
+		<button value="7a"/>
+	</Input>
+	<Input move_name="overhead slash">
+		<button value="8a"/>
+	</Input>
+	<Input move_name="overhead slash">
+		<button value="9a"/>
+	</Input>
+	<Input move_name="low slash">
+		<button value="1a"/>
+	</Input>
+	<Input move_name="low slash">
+		<button value="2a"/>
+	</Input>
+	<Input move_name="low slash">
+		<button value="3a"/>
+	</Input>
+
+	<Input move_name="idle.stand">
+		<button value="5"/>
+	</Input>
+	<Input move_name="poison">
+		<button value="*"/>
+	</Input>
+	<Input move_name="walk forward">
+		<button value="6"/>
+	</Input>
+	<Input move_name="walk back">
+		<button value="4"/>
+	</Input>
+	<Input move_name="idle jumping">
+		<button value="*"/>
+	</Input>
+	<Input move_name="separate">
+		<button value="*"/>
+	</Input>
+	<Input move_name="gravity">
+		<button value="*"/>
+	</Input>
+	<Input move_name="setState.jumping">
+		<button value="*"/>
+	</Input>
+	<Input move_name="setState.standing">
+		<button value="*"/>
+	</Input>
+	<Input move_name="setState.crouch">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_up">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_back">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_land_cancel">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.stand">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.crouch">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.air">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_hit.knockdown">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_projectile_disolve">
+		<button value="*"/>
+	</Input>
+	<Input move_name="on_projectile_disolve_chip">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_up_change_char">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_back_change_char">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_forward_change_char">
+		<button value="*"/>
+	</Input>
+	<Input move_name="push_left">
+		<button value="*"/>
+	</Input>
+	<Input move_name="push_right">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_forward">
+		<button value="*"/>
+	</Input>
+	<Input move_name="2">
+		<button value="1*"/>
+	</Input>
+	<Input move_name="2">
+		<button value="2*"/>
+	</Input>
+	<Input move_name="2">
+		<button value="3*"/>
+	</Input>
+	<Input move_name="crouching">
+		<button value="1*"/>
+	</Input>
+	<Input move_name="crouching">
+		<button value="2*"/>
+	</Input>
+	<Input move_name="crouching">
+		<button value="3*"/>
+	</Input>
+	<Input move_name="move_up_opponent">
+		<button value="*"/>
+	</Input>
+	<Input move_name="move_back_opponent">
+		<button value="*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="1*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="2*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="3*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="4*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="5*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="6*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="7*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="8*"/>
+	</Input>
+	<Input move_name="weapon clash">
+		<button value="9*"/>
+	</Input>
+</InputFile>

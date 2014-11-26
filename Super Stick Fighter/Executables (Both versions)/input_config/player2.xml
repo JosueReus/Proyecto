@@ -1,0 +1,29 @@
+<Image x="0" y="0" width="1280" height="800" visible="true" path="fondo.png" />
+
+<Container x="0" y="0" width="600" height="550" visible="true" seleccionado="true">
+
+	<Button x="0" y="0" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="Back" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="Back" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Continue"/>
+
+	<Button x="0" y="130" width="1000" height="90" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="up->" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="up->" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Player2.KeyConfig:up"/>
+
+	<Button x="0" y="230" width="1000" height="90" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="down->" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="down->" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Player2.KeyConfig:down"/>
+
+	<Button x="0" y="330" width="1000" height="90" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="left->" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="left->" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Player2.KeyConfig:left"/>
+
+	<Button x="0" y="430" width="1000" height="90" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="right->" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="right->" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Player2.KeyConfig:right"/>
+
+	<Button x="0" y="530" width="1000" height="90" visible="true" 
+	path="boton1.png" text_x="5" text_y="5" text="a->" alpha="255" red="255" green="255" blue="255" 		path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="a->" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Player2.KeyConfig:a"/>
+
+</Container>

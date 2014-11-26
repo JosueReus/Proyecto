@@ -1,0 +1,8 @@
+<StageSize x="2040"/>
+<Floor position="30"/>
+<Background image="background.png" size_x="0" size_y="0"/>
+<Back>
+	<layer image="1.png" size_x="2040" size_y="1020"/>
+</Back>
+<Front>
+</Front>

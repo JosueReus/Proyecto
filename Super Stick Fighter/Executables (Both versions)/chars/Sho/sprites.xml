@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpritesFile>
+    <IgnoreColor blue="80" green="87" red="13"/>
+    <Move name="victory">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/standing/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <!--Displacement-->
+    <Move name="idle.stand">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/standing/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/standing/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/standing/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/standing/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.jump">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/jump forward/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="walk back">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/walk back/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/walk back/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/walk back/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/walk back/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/displacement/walk back/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="walk forward">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/walk forward/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/walk forward/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/walk forward/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/walk forward/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/displacement/walk forward/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump back">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/jump back/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/jump back/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/jump back/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/jump back/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/displacement/jump back/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/displacement/jump back/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump forward">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/jump forward/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/jump forward/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/jump forward/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/jump forward/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/displacement/jump forward/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/displacement/jump forward/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="jump up">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/displacement/jump up/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/displacement/jump up/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/displacement/jump up/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/displacement/jump up/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/displacement/jump up/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="idle.crouch">
+        <Sprite align_x="20" align_y="0" frame_number="1"
+            path="sprites/displacement/crouching/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="10" align_y="0" frame_number="2"
+            path="sprites/displacement/crouching/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <!-- Stand normal moves -->
+    <Move name="stand light punch">
+        <Sprite align_x="42" align_y="0" frame_number="1"
+            path="sprites/normal/stand/light punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="2"
+            path="sprites/normal/stand/light punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="3"
+            path="sprites/normal/stand/light punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand light kick">
+        <Sprite align_x="42" align_y="0" frame_number="1"
+            path="sprites/normal/stand/light kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="2"
+            path="sprites/normal/stand/light kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="3"
+            path="sprites/normal/stand/light kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="4"
+            path="sprites/normal/stand/light kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand medium punch">
+        <Sprite align_x="42" align_y="0" frame_number="1"
+            path="sprites/normal/stand/medium punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="2"
+            path="sprites/normal/stand/medium punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="3"
+            path="sprites/normal/stand/medium punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand medium kick">
+        <Sprite align_x="42" align_y="0" frame_number="1"
+            path="sprites/normal/stand/medium kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="2"
+            path="sprites/normal/stand/medium kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="3"
+            path="sprites/normal/stand/medium kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="42" align_y="0" frame_number="4"
+            path="sprites/normal/stand/medium kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand fierce punch">
+        <Sprite align_x="15" align_y="0" frame_number="1"
+            path="sprites/normal/stand/fierce punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="15" align_y="0" frame_number="2"
+            path="sprites/normal/stand/fierce punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="15" align_y="0" frame_number="3"
+            path="sprites/normal/stand/fierce punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand fierce kick">
+        <Sprite align_x="5" align_y="0" frame_number="1"
+            path="sprites/normal/stand/fierce kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="2"
+            path="sprites/normal/stand/fierce kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="3"
+            path="sprites/normal/stand/fierce kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="4"
+            path="sprites/normal/stand/fierce kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="5"
+            path="sprites/normal/stand/fierce kick/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="6"
+            path="sprites/normal/stand/fierce kick/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near light punch">
+        <Sprite align_x="25" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/light punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="25" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/light punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="25" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/light punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near light kick">
+        <Sprite align_x="56" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/light kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/light kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/light kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="4"
+            path="sprites/normal/stand near/light kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near medium punch">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/medium punch/1.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/medium punch/2.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/medium punch/3.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/normal/stand near/medium punch/4.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/normal/stand near/medium punch/5.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/normal/stand near/medium punch/6.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near medium kick">
+        <Sprite align_x="50" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/medium kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="50" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/medium kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/medium kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="4"
+            path="sprites/normal/stand near/medium kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="135" align_y="0" frame_number="5"
+            path="sprites/normal/stand near/medium kick/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="50" align_y="0" frame_number="6"
+            path="sprites/normal/stand near/medium kick/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near fierce punch">
+        <Sprite align_x="20" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/fierce punch/1.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/fierce punch/2.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/fierce punch/3.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="0" frame_number="4"
+            path="sprites/normal/stand near/fierce punch/4.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="0" frame_number="5"
+            path="sprites/normal/stand near/fierce punch/5.png"
+            scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="stand near fierce kick">
+        <Sprite align_x="47" align_y="0" frame_number="1"
+            path="sprites/normal/stand near/fierce kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="128" align_y="0" frame_number="2"
+            path="sprites/normal/stand near/fierce kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="128" align_y="0" frame_number="3"
+            path="sprites/normal/stand near/fierce kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="128" align_y="0" frame_number="4"
+            path="sprites/normal/stand near/fierce kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="128" align_y="0" frame_number="5"
+            path="sprites/normal/stand near/fierce kick/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="47" align_y="0" frame_number="6"
+            path="sprites/normal/stand near/fierce kick/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <!-- Crouch normal moves -->
+    <Move name="crouch light punch">
+        <Sprite align_x="100" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/light punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="100" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/light punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="100" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/light punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch light kick">
+        <Sprite align_x="100" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/light kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="100" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/light kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="100" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/light kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch medium punch">
+        <Sprite align_x="90" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/medium punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/medium punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/medium punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch medium kick">
+        <Sprite align_x="125" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/medium kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="125" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/medium kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="125" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/medium kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch fierce punch">
+        <Sprite align_x="60" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/fierce punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="60" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/fierce punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="60" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/fierce punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="60" align_y="0" frame_number="4"
+            path="sprites/normal/crouch/fierce punch/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="60" align_y="0" frame_number="5"
+            path="sprites/normal/crouch/fierce punch/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="crouch fierce kick">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/normal/crouch/fierce kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/normal/crouch/fierce kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/normal/crouch/fierce kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/normal/crouch/fierce kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="5"
+            path="sprites/normal/crouch/fierce kick/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air light punch">
+        <Sprite align_x="62" align_y="93" frame_number="1"
+            path="sprites/normal/jump/light punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="62" align_y="93" frame_number="2"
+            path="sprites/normal/jump/light punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air medium punch">
+        <Sprite align_x="20" align_y="95" frame_number="1"
+            path="sprites/normal/jump/medium punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="95" frame_number="2"
+            path="sprites/normal/jump/medium punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air fierce punch">
+        <Sprite align_x="20" align_y="95" frame_number="1"
+            path="sprites/normal/jump/fierce punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="20" align_y="95" frame_number="2"
+            path="sprites/normal/jump/fierce punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air light kick">
+        <Sprite align_x="90" align_y="50" frame_number="1"
+            path="sprites/normal/jump/light kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="50" frame_number="2"
+            path="sprites/normal/jump/light kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="50" frame_number="3"
+            path="sprites/normal/jump/light kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air medium kick">
+        <Sprite align_x="90" align_y="50" frame_number="1"
+            path="sprites/normal/jump/medium kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="50" frame_number="2"
+            path="sprites/normal/jump/medium kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="90" align_y="50" frame_number="3"
+            path="sprites/normal/jump/medium kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air fierce kick">
+        <Sprite align_x="90" align_y="50" frame_number="1"
+            path="sprites/normal/jump/fierce kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/normal/jump/fierce kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/normal/jump/fierce kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air up light kick">
+        <Sprite align_x="10" align_y="0" frame_number="1"
+            path="sprites/normal/jump up/light kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="10" align_y="0" frame_number="2"
+            path="sprites/normal/jump up/light kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="10" align_y="0" frame_number="3"
+            path="sprites/normal/jump up/light kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air up medium kick">
+        <Sprite align_x="10" align_y="0" frame_number="1"
+            path="sprites/normal/jump up/medium kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="10" align_y="0" frame_number="2"
+            path="sprites/normal/jump up/medium kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="10" align_y="0" frame_number="3"
+            path="sprites/normal/jump up/medium kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="air up fierce kick">
+        <Sprite align_x="83" align_y="0" frame_number="1"
+            path="sprites/normal/jump up/fierce kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="83" align_y="0" frame_number="2"
+            path="sprites/normal/jump up/fierce kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="83" align_y="0" frame_number="3"
+            path="sprites/normal/jump up/fierce kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="tatsumaki light">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/tatsumaki/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/tatsumaki/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/tatsumaki/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/tatsumaki/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="8"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="9"
+            path="sprites/special/tatsumaki/9.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="10"
+            path="sprites/special/tatsumaki/10.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="11"
+            path="sprites/special/tatsumaki/11.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="12"
+            path="sprites/special/tatsumaki/12.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="13"
+            path="sprites/special/tatsumaki/13.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="tatsumaki medium">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/tatsumaki/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/tatsumaki/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/tatsumaki/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/tatsumaki/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="8"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="9"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="10"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="11"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="12"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="13"
+            path="sprites/special/tatsumaki/9.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="14"
+            path="sprites/special/tatsumaki/10.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="15"
+            path="sprites/special/tatsumaki/11.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="16"
+            path="sprites/special/tatsumaki/12.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="17"
+            path="sprites/special/tatsumaki/13.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="tatsumaki fierce">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/tatsumaki/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/tatsumaki/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/tatsumaki/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/tatsumaki/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="8"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="9"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="10"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="11"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="12"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="13"
+            path="sprites/special/tatsumaki/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="14"
+            path="sprites/special/tatsumaki/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="15"
+            path="sprites/special/tatsumaki/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="16"
+            path="sprites/special/tatsumaki/8.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="17"
+            path="sprites/special/tatsumaki/9.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="18"
+            path="sprites/special/tatsumaki/10.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="19"
+            path="sprites/special/tatsumaki/11.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="20"
+            path="sprites/special/tatsumaki/12.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="21"
+            path="sprites/special/tatsumaki/13.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="shoryuken light">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/shoryuken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/shoryuken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/shoryuken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/shoryuken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/shoryuken/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/shoryuken/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/shoryuken/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="shoryuken medium">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/shoryuken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/shoryuken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/shoryuken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/shoryuken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/shoryuken/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/shoryuken/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/shoryuken/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="shoryuken fierce">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/shoryuken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/shoryuken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/shoryuken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/shoryuken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/special/shoryuken/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/special/shoryuken/6.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/special/shoryuken/7.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="hadouken light">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/hadouken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/hadouken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/hadouken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/hadouken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="hadouken medium">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/hadouken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/hadouken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/hadouken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/hadouken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="hadouken fierce">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/special/hadouken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/special/hadouken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/special/hadouken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/special/hadouken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="super">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/special/hadouken/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/special/hadouken/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/special/hadouken/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/special/hadouken/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="defense.stand">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/defense/stand/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="defense.crouch">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/defense/crouch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.stand">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/on hit/stand/1.png" scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/on hit/stand/2.png" scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/on hit/stand/3.png" scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/on hit/stand/4.png" scale="1" to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="5"
+            path="sprites/on hit/stand/5.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.air">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/on hit/air/1.png" scale="1" to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="on_hit.knockdown">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/on hit/knockdown/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/on hit/knockdown/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/on hit/knockdown/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/on hit/knockdown/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="5"
+            path="sprites/on hit/standup/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="6"
+            path="sprites/on hit/standup/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="7"
+            path="sprites/on hit/standup/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="8"
+            path="sprites/on hit/standup/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab throw punch">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/grab/throw punch/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab throw punch cont">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/grab/throw punch/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/grab/throw punch/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/grab/throw punch/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/grab/throw punch/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab throw kick">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/grab/throw kick/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="grab throw kick cont">
+        <Sprite align_x="120" align_y="0" frame_number="1"
+            path="sprites/grab/throw kick/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="2"
+            path="sprites/grab/throw kick/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="3"
+            path="sprites/grab/throw kick/4.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="120" align_y="0" frame_number="4"
+            path="sprites/grab/throw kick/5.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+    <Move name="dizzy">
+        <Sprite align_x="0" align_y="0" frame_number="1"
+            path="sprites/on hit/dizzy/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="2"
+            path="sprites/on hit/dizzy/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="3"
+            path="sprites/on hit/dizzy/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="4"
+            path="sprites/on hit/dizzy/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="5"
+            path="sprites/on hit/dizzy/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="6"
+            path="sprites/on hit/dizzy/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="7"
+            path="sprites/on hit/dizzy/1.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="8"
+            path="sprites/on hit/dizzy/2.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+        <Sprite align_x="0" align_y="0" frame_number="9"
+            path="sprites/on hit/dizzy/3.png" scale="1"
+            to_opponent="no" variable="current_image"/>
+    </Move>
+</SpritesFile>

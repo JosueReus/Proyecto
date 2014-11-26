@@ -1,0 +1,71 @@
+Success! SDL initialized.
+Initializing SLD sound engine.
+Success!
+misc/vs_screen.png loaded
+menu/startscreen.png loaded
+menu/boton1.png loaded
+menu/boton1.png loaded
+Playing music: menu/audio/music.ogg
+misc/vs_screen.png loaded
+menu/fondo.png loaded
+chars/Shizune/portrait.png loaded
+chars/Shizune/preview.png loaded
+chars/Sho/portrait.png loaded
+chars/Sho/preview.png loaded
+chars/Mole/portrait.png loaded
+chars/Mole/preview.png loaded
+menu/selected_char_p1.png loaded
+menu/locked_char_p1.png loaded
+menu/locked_char_p2.png loaded
+menu/selected_char_p2.png loaded
+menu/no_portrait.png loaded
+stages/CastleSuzaku/images/preview.png loaded
+Initializing game.
+Initializing stage.
+Loading stage from XML.
+Loading stage's BackLayers.
+stages/CastleSuzaku/images/Layer5.png loaded
+stages/CastleSuzaku/images/Layer4.png loaded
+stages/CastleSuzaku/images/Layer3.png loaded
+stages/CastleSuzaku/images/Layer2.png loaded
+stages/CastleSuzaku/images/Layer1.png loaded
+Loading stage's FrontLayers.
+Stage loaded succesfully from XML.
+Initializing player's 1 character #0.
+Loading inputs.
+Initializing char.
+Loading Sho from XML.
+Loading main.xml
+Loading IgnoreColor.
+Loading Declarations.
+Loading Moves declarations.
+Loading victory
+Loading intro
+Loading ko
+Loading walk back
+Loading walk forward
+Loading jump up
+Loading jump forward
+Loading jump back
+Loading idle.crouch
+Loading idle.stand
+Loading idle.land_cancel
+Loading stand light punch
+Loading stand light kick
+Loading stand medium punch
+Loading stand medium kick
+Loading stand fierce punch
+Loading stand fierce kick
+Loading crouch light punch
+Loading crouch light kick
+Loading sprites.
+Loading strings.
+Loading integer.
+Loading hitboxes.
+Loading bars.
+Loading hp
+chars/Sho/misc/bars/hp.png loaded
+Loading super
+Loading vars.xml
+Loading inputs.xml
+Loading triggers.xml

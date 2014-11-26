@@ -1,0 +1,93 @@
+<?xml version="1.0" standalone="no" ?>
+<MainFile>
+	<Declarations>
+		<!-- Bars -->
+		<bar variable="hp" max_value="500" current_value="500" periodic_modifier="0" period="0" alpha="255" r="255" g="0" b="0" x1="583" y1="18" x2="170" y2="56" image="misc/bars/hp.png"/>
+		<bar variable="super" max_value="500" current_value="0" periodic_modifier="0" period="0" alpha="255" r="0" g="0" b="255" x1="200" y1="150" x2="450" y2="175"/>
+		<bar variable="dizzy" stay_at_max="yes" max_value="200" current_value="0" periodic_modifier="-1" period="5" alpha="255" r="255" g="0" b="0" x1="200" y1="250" x2="450" y2="275"/>
+
+		<!-- Animation only Moves -->
+		<Move name="victory" frames="10" frame_duration="10"/>
+		<Move name="intro" frames="8" frame_duration="10"/>
+		<Move name="ko" frames="5" frame_duration="10"/>
+
+		<!-- Displacement Moves Triggers -->
+		<Move name="walk back" frames="5" frame_duration="6" velocity_x="-9" pushes="yes" repeat_from="1" final_velocity_x="0"/>
+		<Move name="walk forward" frames="5" frame_duration="6" velocity_x="9" pushes="yes" repeat_from="1" final_velocity_x="0"/>
+		<Move name="jump up" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" land_cancelable="yes"/>
+		<Move name="jump forward" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" velocity_x="20" land_cancelable="yes"/>
+		<Move name="jump back" frames="6" frame_duration="6" velocity_y="40" acceleration_y="-2" velocity_x="-20" land_cancelable="yes"/>
+
+		<!-- Idle Moves -->
+		<Move name="idle.crouch" frames="2" frame_duration="6" repeat_from="2" separate_blue="5"/>
+		<Move name="idle.stand" frames="4" frame_duration="6" separate_blue="5"/>
+		<Move name="idle.land_cancel" frames="2" frame_duration="2" separate_blue="5"/>
+		<Move name="idle.jump" frames="1" repeat_from="1" frame_duration="100" inherits_velocity="yes" land_cancelable="yes" friction="yes"/>
+
+		<!-- Normal Attacks -->
+		<Move name="stand light punch" frames="3" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand light kick" frames="4" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand medium punch" frames="3" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand medium kick" frames="4" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand fierce punch" frames="3" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand fierce kick" frames="6" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+
+		<Move name="stand near light punch" frames="3" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand near light kick" frames="4" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand near medium punch" frames="6" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand near medium kick" frames="6" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand near fierce punch" frames="5" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+		<Move name="stand near fierce kick" frames="6" frame_duration="5" damage="10" separate_red="5" is_attack="yes"/>
+
+		<Move name="crouch light punch" frames="4" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+		<Move name="crouch light kick" frames="4" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+		<Move name="crouch medium punch" frames="4" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+		<Move name="crouch medium kick" frames="4" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+		<Move name="crouch fierce punch" frames="6" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+		<Move name="crouch fierce kick" frames="6" frame_duration="5" damage="10" separate_red="5" crouched="yes" is_attack="yes"/>
+
+		<Move name="air light punch" frames="2" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air light kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air medium punch" frames="2" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air medium kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air fierce punch" frames="2" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air fierce kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air up light kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air up medium kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<Move name="air up fierce kick" frames="3" frame_duration="5" damage="10" inherits_velocity="yes" separate_red="5" land_cancelable="yes" is_attack="yes" friction="yes"/>
+		<!-- Grabs -->
+		<Move name="grab throw punch" frames="1" frame_duration="6" damage="10" cancel_on_hit="grab throw punch cont"/>
+		<Move name="grab throw punch cont" frames="4" frame_duration="6"/>
+
+		<Move name="grab throw kick" frames="1" frame_duration="6" damage="10" cancel_on_hit="grab throw kick cont"/>
+		<Move name="grab throw kick cont" frames="5" frame_duration="6"/>
+
+		<!-- Special Moves -->
+		<Move name="shoryuken light" frames="7" frame_duration="6"/>
+		<Move name="shoryuken medium" frames="7" frame_duration="6"/>
+		<Move name="shoryuken fierce" frames="7" frame_duration="6"/>
+		<Move name="hadouken light" frames="8" frame_duration="6"/>
+		<Move name="hadouken medium" frames="8" frame_duration="6"/>
+		<Move name="hadouken fierce" frames="8" frame_duration="6"/>
+		<Move name="tatsumaki light" frames="13" frame_duration="6" velocity_x="8"/>
+		<Move name="tatsumaki medium" frames="17" frame_duration="6" velocity_x="8"/>
+		<Move name="tatsumaki fierce" frames="21" frame_duration="6" velocity_x="8"/>
+
+		<!-- Super Moves -->
+		<Move name="super" frames="15" stop_time_at="1" resume_time_at="4" frame_duration="8"/>
+
+		<!-- Defenses -->
+		<Move name="defense.stand" frames="1" frame_duration="6"/>
+		<Move name="defense.crouch" frames="1" frame_duration="6" crouched="yes"/>
+
+		<!-- On Hits -->
+		<Move name="on_hit.stand" frames="5" frame_duration="6"/>
+		<Move name="on_hit.air" frames="50" frame_duration="2" acceleration_y="-3" velocity_x="-10" velocity_y="20" land_cancelable="yes"/>
+		<Move name="on_hit.knockdown" frames="8" frame_duration="6" velocity_x="-20" acceleration_x="1" friction="yes"/>
+		<Move name="on_projectile_disolve" frames="1" frame_duration="0"/>
+		<Move name="on_projectile_disolve_chip" frames="1" frame_duration="0"/>
+
+		<!-- Dizzy -->
+		<Move name="dizzy" frames="9" frame_duration="6"/>
+	</Declarations>
+</MainFile>

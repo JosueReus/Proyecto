@@ -1,0 +1,25 @@
+<AnimationsFile>
+	<Back>
+		<Animation name="super" position_x="0" position_y="0" duration="5" to_opponent="no" use_camera="no">
+			<Sprite path="animations/super/1.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/2.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/1.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/2.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/1.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/2.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/1.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/2.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/1.png" scale="1" align_x="0" align_y="0"/>
+			<Sprite path="animations/super/2.png" scale="1" align_x="0" align_y="0"/>
+		</Animation>
+	</Back>
+	<Front>
+		<Animation name="hit" position_x="Colision.x" position_y="Colision.y" duration="2" to_opponent="no" use_camera="yes">
+			<Sprite path="animations/hit/1.png" scale="2" align_x="0" align_y="0"/>
+			<Sprite path="animations/hit/2.png" scale="2" align_x="0" align_y="0"/>
+			<Sprite path="animations/hit/3.png" scale="2" align_x="0" align_y="0"/>
+			<Sprite path="animations/hit/4.png" scale="2" align_x="0" align_y="0"/>
+			<Sprite path="animations/hit/5.png" scale="2" align_x="0" align_y="0"/>
+		</Animation>
+	</Front>
+</AnimationsFile>

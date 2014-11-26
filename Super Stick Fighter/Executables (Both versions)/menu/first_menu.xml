@@ -1,0 +1,20 @@
+<Image x="0" y="0" width="1280" height="800" visible="true" path="fondo.png" />
+
+<Container x="0" y="0" width="600" height="550" visible="true" seleccionado="true">
+	<Button x="0" y="50" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="vs. Human" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="vs. Human" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="pvp_menus/1v1.xml"/>
+
+	<Button x="0" y="200" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="vs CPU" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="vs. CPU" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="pvcpu_menus/1v1.xml"/>
+
+	<Button x="0" y="350" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="Inputs" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="Inputs" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Load" load_menu="input_menu.xml"/>
+
+	<Button x="0" y="500" width="594" height="98" visible="true" 
+	path="boton1.png" text_x="40" text_y="10" text="Exit" alpha="255" red="255" green="255" blue="255" path_selected="boton2.png" text_x_selected="5" text_y_selected="5" text_selected="Exit" alpha_selected="255" red_selected="255" green_selected="255" blue_selected="255" 
+	action="Exit"/>
+
+</Container>
